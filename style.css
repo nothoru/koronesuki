@@ -55,10 +55,19 @@
 .main-text h1{
    font-size: 48px;
    font-weight: bold;
+   margin-bottom: 10px;
+   border: 2px solid #AA5649;
+   border-radius: 10px;
+   padding: 10px 30px;
 }
 
 .main-text p{
    font-size: 18px;
+   margin-bottom: 10px;
+}
+.main-image img{
+   border: thin solid #AA5649;
+   max-width: 100%;
 }
 
 .content{
@@ -67,17 +76,16 @@
 }
 
 .info-container{
-   margin: 20px 0px;
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 52px;
    flex-wrap: wrap;
-   padding: 50px;
+   padding: 25px;
 }
 
 .info-container img{
-   border: 4px solid blue;
+   border: 4px solid #AA5649;
    border-radius: 15px;
 }
 
@@ -91,6 +99,8 @@
    flex-direction: column;
    align-items: center;
    font-weight: lighter;
+   flex-wrap: wrap;
+   
 }
 
 .quote b{
@@ -99,19 +109,23 @@
 }
 
 .sign-up{
+   
    display: flex;
    justify-content: space-around;
    margin: 50px 200px;
    padding: 50px; 
+   background-color: #AA5649;
+   color: #FFFFE4;
+   
 }
 
-.sign-up, button{
-   background-color: #3882F6;
-   color: white;
-}
 
-.sign-up button{
+
+button{
+   color: #FFFFE4;
+   background-color: #AA5649;
    border: 2px solid white;
    border-radius: 10px;
    padding: 10px 30px;
+   font-size: 18px;
 }
