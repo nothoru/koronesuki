@@ -1,126 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
-
- *{
+*{
     padding: 0;
     margin: 0;
- }
-
- .container{
-   display: flex;
-   flex-direction: column;
- }
-
- body{
     font-family: 'Roboto', sans-serif;
- }
+}
 
- .navbar, footer
- {
+
+.container{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 0px 20px 0px;
+    flex-direction: column;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
     background-color: #1f2937;
-    color: white;
+    align-items: center;
+    padding: 20px;
+    color: #F9faf8;
+}
 
- }
- 
- .navbar ul{
-   display: flex;
-   list-style-type: none;
-   gap: 32px;
-   
- }
+.navbar ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
 
+.hero{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #1f2937;
+    color: #F9faf8;
+    align-items: center;
+    gap: 32px;
+}
 
- a{
-    text-decoration: none;
-    color: white;
- }
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+}
 
-.main{
-   display: flex;
-   background-color: #1f2937;
-   color: white;
-   align-items: center;
-   justify-content: center;
-   gap: 52px;
-   padding: 90px;
-   margin-bottom: 25px;
+.hero img{
+    max-width: 100%;
 
 }
 
-.main-text h1{
-   font-size: 48px;
-   font-weight: bold;
-   margin-bottom: 10px;
-   border: 2px solid #AA5649;
-   border-radius: 10px;
-   padding: 10px 30px;
+.hero h1{
+    font-size: 48px;
+    border: 2px solid #AA5649;
+    padding: 10px;
+    border-radius: 15px;
 }
 
-.main-text p{
-   font-size: 18px;
-   margin-bottom: 10px;
-}
-.main-image img{
-   border: thin solid #AA5649;
+.hero p{
+    padding: 10px 0px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.content{
-   text-align: center;
-   align-items: center;
+.hero button{
+    max-width: 50%;
+}
+
+
+.collection{
+    padding: 20px 50px 20px 50px;
+    text-align: center;
 }
 
 .info-container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 52px;
-   flex-wrap: wrap;
-   padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-.info-container img{
-   border: 4px solid #AA5649;
-   border-radius: 15px;
+.info img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #AA5649;
+    border-radius: 15px;
 }
 
 .quote{
-   background-color: #E5E7EB;
-   color: #1f2937;
-   font-size: xx-large;
-   font-style: italic;
-   padding: 50px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   font-weight: lighter;
-   
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 50px;
 }
 
-
-
-.sign-up{
-   
-   display: flex;
-   justify-content: space-around;
-   margin: 50px 200px;
-   padding: 50px; 
-   background-color: #AA5649;
-   color: #FFFFE4;
-   max-width: 100%;
-   
+.q-container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
 }
 
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
 
+.quote b{
+    align-self: flex-end;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.modal-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    flex-basis: 1000px;
+    background-color: #AA5649;
+    padding: 50px;
+    color: #FFFFE4;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
 
 button{
-   color: #FFFFE4;
-   background-color: #AA5649;
-   border: 2px solid white;
-   border-radius: 10px;
-   padding: 10px 30px;
-   font-size: 18px;
+    padding: 5px 20px;
+    background-color: #AA5649;
+    color: #FFFFE4;
+    border: 2px solid white;
+    font-size: 18px;
+    border-radius: 10px;
 }
